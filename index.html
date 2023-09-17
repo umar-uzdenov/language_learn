@@ -1,112 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Horizontal parallax</title>
+    <title>Изучить слова</title>
 
     <link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css" />
     <script src="lib/swiper/swiper-bundle.min.js" defer></script>
-    <script src="lib/particles/particles.js" defer></script>
 
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/utils.js" defer></script>
     <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    <div class="swiper slider">
-        <div class="swiper-wrapper slider__wrapper">
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_1_2023-09-04_07-13-55.jpg)">
-                </div>
+    <div class="wrapper">
+        <div class="swiper slider">
+            <div class="swiper-wrapper slider__wrapper"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="buttons">
+            <div class="prev-btn button">Темы</div>
+            <div class="counter">
             </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_2_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_3_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_4_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_5_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_6_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_7_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_8_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_9_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_10_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_11_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_12_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_13_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_14_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
-            <div class="swiper-slide slider__item">
-                <div
-                    class="slider__layer"
-                    style="background-image:url(img/photo_15_2023-09-04_07-13-55.jpg)">
-                </div>
-            </div>
+        </div>
+        <div class="themes" style="display: none;"><!-- hack -->
+            <div class="fruits button">Фрукты فواكه</div>
+            <div class="fruits button">Транспорт ينقل</div>
         </div>
     </div>
 </body>
+
 </html>
